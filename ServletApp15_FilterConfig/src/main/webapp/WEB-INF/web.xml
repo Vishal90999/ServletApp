@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ <filter>
+   <filter-name>FilterConfig11</filter-name>
+   <filter-class>com.vny.filterconfig.FilterConfig11</filter-class>
+      <init-param>
+         <param-name>aaa</param-name>
+         <param-value>123</param-value>
+      </init-param>
+ </filter>
+ <filter-mapping>
+     <filter-name>FilterConfig11</filter-name>
+     <url-pattern>/dis</url-pattern>   
+ </filter-mapping>
+ 
+ <welcome-file-list>
+  <welcome-file>input.html</welcome-file>
+ </welcome-file-list>
+
+</web-app>
